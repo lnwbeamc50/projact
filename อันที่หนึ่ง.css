@@ -1,0 +1,138 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+.coctainer{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    padding: 10px;
+    background-color: #000000;
+
+}
+.nav-con{
+    display:flex;
+    justify-content:space-between;
+}
+.logo a{
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration:none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.menu li{
+    margin: 0 10px;
+    
+
+}
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.maincontent{
+    background-color: aqua;
+}
+
+.maincontent-con{
+    display: flex;
+}
+
+.maincontent-info{
+    width: 100%;
+    padding: 20px;
+}
+
+.maincontent-info h3{
+    font-size: 20px;
+}
+
+.maincontent-info p{
+    margin: 10px 0;
+}
+
+.maincontent-info .maincontent-btn{
+    background-color: rgb(227, 177, 11);
+    padding: 8px 10px; 
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.maincontent-img{
+    width: 100%;
+    padding: 10px 50px;
+    color: bisque;
+}
+
+.content-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.content-title{
+    margin: 20px 0;
+
+}
+.content-item img{
+    width: 100%;
+
+}
+.content-item h4{
+    margin-top: 10px
+}
+.content-item p{
+    margin: 0;
+}
+.content-item a{
+    display: inline-block;
+    color: #ffffff;
+    background-color: rgb(215, 110, 31);
+    padding: 8px 10px;
+    border-radius: 10px;
+
+}
+.footer-top{
+    margin-top: 20px;
+    padding: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.footer-top-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.footer-top-item-con{
+    display: flex;
+    margin: 10px 0;
+}
+
+.footer-top-item-con .date{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.footer-top-item:nth-child(2) h4,
+.footer-top-item:nth-child(3) h4{
+    margin-bottom:10px ;
+}
+.footer-buttom h1{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
